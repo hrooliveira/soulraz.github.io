@@ -1827,19 +1827,22 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		position: fixed;
+		position: relative;
 		z-index: 10000;
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
-		height: 3em;
-		line-height: 3em;
+		height: 7em;
+		line-height: 10em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+		background: url("../../images/a3/Rodapé.jpeg");
+		
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
 
 		#header h1 {
-			position: absolute;
+			position: fixed;
 			left: 1em;
 			top: 0;
 			height: 3em;
@@ -1852,7 +1855,7 @@ input, select, textarea {
 			}
 
 		#header nav {
-			position: absolute;
+			position: relative;
 			right: 0.5em;
 			top: 0;
 			height: 3em;
@@ -1874,7 +1877,7 @@ input, select, textarea {
 						color: inherit;
 						text-decoration: none;
 						height: 3em;
-						line-height: 3em;
+						line-height: 15em;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
 					}
@@ -1882,7 +1885,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2.5em;
+				height: 7em;
 				line-height: 2.5em;
 			}
 
